@@ -1,0 +1,36 @@
+{
+  "name": "@redus-sandbox/react-component-1",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "yarn@4.0.2",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "private"
+  },
+  "license": "ISC",
+  "scripts": {
+    "build": "rm -rf dist && rollup --config ./rollup.config.mjs",
+    "dev": "storybook dev -p 6006",
+    "prepare": "npm run build && npm run readme",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@orioro/dev": "^0.0.5",
+    "rollup": "^4.13.0",
+    "storybook": "^8.0.0"
+  },
+  "dependencies": {
+    "@redus-sandbox/ts-lib-1": "workspace:^",
+    "react": "^18.2.0",
+    "styled-components": "^6.1.8"
+  }
+}

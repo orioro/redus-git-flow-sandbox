@@ -1,0 +1,12 @@
+{
+  "name": "@redus-sandbox/api-1",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@redus-sandbox/react-component-1": "workspace:^"
+  }
+}
