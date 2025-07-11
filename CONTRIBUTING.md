@@ -89,6 +89,45 @@ git push origin next
 
 ---
 
+## 📝 Padrão de mensagens de commit
+
+```
+<type>: <descrição curta>
+```
+
+### Tipos comuns
+- `feat`: nova funcionalidade
+- `fix`: correção de bug
+- `docs`: alterações na documentação
+- `chore`: manutenção e tarefas administrativas
+- `refactor`: refatoração de código sem alteração de comportamento
+- `test`: adição ou melhoria de testes
+- `style`: ajustes de formatação (espaços, indentação, etc.)
+
+### ✅ Exemplos
+- `feat: adiciona fluxo de login de usuário`
+- `fix: corrige tratamento de erro na API`
+- `docs: atualiza README com novas instruções, como requisitado em #82`
+- `chore: atualiza dependências`
+
+### 🔔 Convenções adicionais
+- Limite a linha de descrição a ~50 caracteres
+- Use o modo imperativo, como se a mensagem fizesse parte da seguinte frase: "Este commit [adiciona/corrige/atualiza] funcionalidade XPTO, descrito na issue #92"
+- Não use pontuação final na linha de descrição
+
+---
+
+## 🖋️ Padrões de formatação de código
+
+- Verifique com a equipe responsável os padrões de formatação definidos no projeto.
+- Mesmo que não haja uma padronização 100% estabelecida, busque consistência na sua formatação.
+- Caso haja um formatador pré-definido (ex: `Prettier`), sempre aplique a formatação antes de enviar o código para revisão (PR).
+- Utilize **espaços ao invés de tabs**.
+- Evite deixar **espaços em branco ao final das linhas**.
+- Sempre deixe **1 linha em branco ao final de cada arquivo**.
+
+---
+
 ## 🔔 Resumo
 - `next` é a branch padrão para trabalho de desenvolvimento.
 - Todo o trabalho de desenvolvimento em features deve acontecer em branches com base em `next`.
