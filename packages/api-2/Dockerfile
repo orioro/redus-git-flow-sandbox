@@ -26,5 +26,7 @@ COPY ./postgrest.conf ./postgrest.conf
 
 # Modificação 3
 
+# Modificação 4
+
 # Run PostgREST mapping env variables (needed for Heroku)
 CMD ["sh", "-c", "PGRST_DB_URI=$PGRST_PUBLIC_ANONYMOUS_URL PGRST_SERVER_PORT=$PORT postgrest /app/postgrest.conf"]
