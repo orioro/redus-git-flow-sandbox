@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export type ComponentProps = {
   children?: React.ReactNode
-  bg: string
+  bg: boolean
 }
 
 export const Component: React.FC<ComponentProps> = styled.div`
