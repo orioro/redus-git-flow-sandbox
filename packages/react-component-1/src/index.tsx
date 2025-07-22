@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export type ComponentProps = {
   children?: React.ReactNode
-  bg: number
+  bg: boolean
 }
 
 export const Component: React.FC<ComponentProps> = styled.div`
@@ -11,3 +11,5 @@ export const Component: React.FC<ComponentProps> = styled.div`
 
   background: ${({ bg }) => bg};
 `
+// quero fazer um conflito nesse código
+
