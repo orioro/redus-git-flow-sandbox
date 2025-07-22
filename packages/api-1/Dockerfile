@@ -8,6 +8,8 @@ COPY /app/config.yaml /app/config.yaml
 # Expose the default Martin port
 EXPOSE $PORT
 
+# Uma adicão neste arquivo aqui
+
 VOLUME /app/data
 
 # Run Martin with the custom configuration
