@@ -17,9 +17,13 @@ RUN curl -L -o postgrest.tar.xz https://github.com/PostgREST/postgrest/releases/
     && rm postgrest.tar.xz \
     && chmod +x /bin/postgrest
 
+# Modificação 2
+
 WORKDIR /app
 
 COPY ./postgrest.conf ./postgrest.conf
+
+# Modificação 3
 
 # Run PostgREST mapping env variables (needed for Heroku)
 CMD ["sh", "-c", "PGRST_DB_URI=$PGRST_PUBLIC_ANONYMOUS_URL PGRST_SERVER_PORT=$PORT postgrest /app/postgrest.conf"]
