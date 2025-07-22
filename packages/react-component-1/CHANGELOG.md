@@ -1,5 +1,12 @@
 # @orioro/template-react
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [f80dce7]
+  - @redus-sandbox/ts-lib-1@2.0.0
+
 ## 0.0.2
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @orioro/template-ts
 
+## 2.0.0
+
+### Major Changes
+
+- f80dce7: Altera API da biblioteca pra ter uma exclamação!
+
 ## 0.0.2
 
 ### Patch Changes
