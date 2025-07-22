@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 export type ComponentProps = {
   children?: React.ReactNode
-  bg: string
+  bg: number
 }
 
 export const Component: React.FC<ComponentProps> = styled.div`
   padding: 10px;
 
-  background-color: ${({ bg }) => bg};
+  background: ${({ bg }) => bg};
 `
