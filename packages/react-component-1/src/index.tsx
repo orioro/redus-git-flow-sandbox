@@ -11,3 +11,5 @@ export const Component: React.FC<ComponentProps> = styled.div`
 
   background-color: ${({ bg }) => bg};
 `
+// quero fazer um conflito nesse código
+
