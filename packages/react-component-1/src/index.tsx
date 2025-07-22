@@ -9,7 +9,7 @@ export type ComponentProps = {
 export const Component: React.FC<ComponentProps> = styled.div`
   padding: 10px;
 
-  background-color: ${({ bg }) => bg};
+  background: ${({ bg }) => bg};
 `
 // quero fazer um conflito nesse código
 
